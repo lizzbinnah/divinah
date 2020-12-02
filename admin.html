@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REMBO |ONLINE STORES</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="header">
+  <a href="#default" class="logo">REMBO |ONLINE STORES</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+      <a href="products.html">products</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+      <a href="Admin.html">admin</a>
+    <p>
+<a href="cart.html">
+<img border="0" alt="cart" src="images\cart.jpg" width="30px" >
+</a>
+<!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+<h3>add files</h3>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+<form action="/Remove_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="delete">
+</form>
+  </div>
+  <!-- The Modal -->
+  <h3>login form</h3>
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+      
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+
+
+
+  <style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+
+
+  <div class="footer">
+    <!-- Add font awesome icons -->
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+
+  <!-- Add font awesome icons -->
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+    </body>
+  </html>
